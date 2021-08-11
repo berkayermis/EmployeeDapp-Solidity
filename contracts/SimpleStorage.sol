@@ -3,7 +3,7 @@ pragma solidity >=0.8.0;
 contract SimpleStorage {
   string public storedData;
 
-  constructor() public {
+  constructor() payable {
     storedData = "First set a new employee of the month!";
   }
 
