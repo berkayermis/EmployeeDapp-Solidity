@@ -1,0 +1,51 @@
+body {
+    padding: 50px;
+    text-align:center;
+    background-color:white;
+    color:black;
+    border:10px solid brown;
+}
+
+.rotating-icon {
+    display: inline-block;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes twist-up {
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+.allButtons{
+	padding:5px;
+	background-color: brown;
+	color:white;
+	border:1px solid white;
+}
+
+button:hover{
+    background-color:green;
+    transition:0.2s;
+}
+
+.setButton{
+	margin-left:5px;
+}
+
+.titleText{
+    color:black;
+    background-color:brown;
+    height:100%;
+    weight:100%;
+}
+
+button{
+    cursor:pointer;
+}
